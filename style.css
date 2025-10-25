@@ -13,9 +13,7 @@
 /* --------------------------- Navbarr ----------------------------- */
 /* Navbar */
 html, body {
-    /* ป้องกันการ Scroll แนวนอนโดยเด็ดขาด */
     overflow-x: hidden; 
-    /* ให้ความกว้างเท่ากับ Viewport พอดี */
     width: 100%;
 }
 body{
@@ -627,18 +625,18 @@ section{
         font-size: 2.5rem;
     }
     .all-Project{
-        flex-direction: column; /* เรียง Card ซ้อนกัน */
+        flex-direction: column;
         gap: 2rem;
         margin-bottom: 40px;
     }
     .project-Con{
       padding: 0 30px;
       height: 290px;
-      width: 90%; /* กว้าง 90% ของหน้าจอ */
-      max-width: 300px; /* ไม่ให้ใหญ่เกินไปบนแท็บเล็ต */
+      width: 90%;
+      max-width: 300px;
     }
     .project-Con:hover{
-      transform: none; /* ปิด hover effect บนมือถือ */
+      transform: none;
     }
     .img-pro img{
       width: 220px;
@@ -656,7 +654,7 @@ section{
     }
     .form-group input,
     .form-group textarea {
-        width: 80vw; /* ยืด Input/Textarea เกือบเต็มความกว้างจอ */
+        width: 80vw;
         max-width: 350px;
     }
 } 
